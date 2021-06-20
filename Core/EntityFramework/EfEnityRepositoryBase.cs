@@ -50,7 +50,7 @@ namespace Core.EntityFramework
             }
         }
 
-        public void Updadet(TEntity entity)
+        public void Update(TEntity entity)
         {
             using (var context = new TContext())
             {
