@@ -47,14 +47,12 @@ namespace Business.Concrete
         {
             _productDal.Delete(product);
             return new SuccessResult(Messages.ProductDeleted);
-
         }
 
         public IResult Update(Product product)
         {
             _productDal.Update(product);
             return new SuccessResult(Messages.ProductUpdated);
-
         }
     }
 }
